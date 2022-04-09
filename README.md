@@ -1,6 +1,6 @@
 # QuickenCryptoPriceUpdater
 
-An Apple Script and pythons program to update the price history of crypto currencies in Quicken for Mac.
+An Apple Script and python program to update the price history of crypto currencies in Quicken for Mac.
 
 ## Setup
 
