@@ -40,4 +40,8 @@ To import the data of a currency the following variables must be input to the `u
 
 `endDate`: The end date for the range of history to be imported. Must be in the form: "YYYY-MM-DD". (If the start date = end date 1 day is imported)
 
-##### Use at your own risk as Quicken is subject to change their interface the Apple Script interacts with.
+## Before you run!!!
+
+Do not switch windows once the program begins. You can move your cursor but do not click or interact with anything the Quicken Security Window will close when the script finishes. Additionally, importing multiple coins or large ranges spaning years the script my take multiple minutes, to update a single day should take roughly a 30 seconds for 5 coins.
+
+##### Use at your own risk as Quicken is subject to change their interface potentially breaking the Apple Script.
