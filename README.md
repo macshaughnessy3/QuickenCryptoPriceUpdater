@@ -1,6 +1,6 @@
 # QuickenCryptoPriceUpdater
 
-An Apple Script and python program to update the price history of crypto currencies in Quicken for Mac.
+An Apple Script and python program to update the price history of crypto currencies in Quicken or Quicken Beta for Mac.
 
 ## Setup
 
@@ -20,7 +20,7 @@ In Quicken each crypto currency must be set up as a security in Quicken for Mac.
 
 ### Apple Script
 
-The Apple Script must be updated to include the appropriate absolute path of this repository locally. This can be done with the variable `FileLocation` on the first line of the file.
+The Apple Script must be updated to include the appropriate absolute path of this repository locally. This can be done with the variable `FileLocation` on the first line of the file. Additionally, If you are using Quicken Beta you must set `QuickenBeta` to `true`.
 
 To import the data of a currency the following variables must be input to the `updateCrypto` function.
 
