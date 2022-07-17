@@ -12,7 +12,7 @@ If you already have python installed you may skip to step 2. If you do not you m
 
 2. Open terminal and type `which python3`. If it is not `/usr/local/bin/python3` this needs to be changed in the Apple Script file.
 
-3. Install dependincies: `pip install pandas; pip install Historic-Crypto`
+3. Install dependincies: `pip3 install pandas; pip3 install Historic-Crypto`
 
 ### Quicken
 
