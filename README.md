@@ -40,15 +40,13 @@ To import the data of a currency the following variables must be input to the `u
 
 `endDate`: The end date for the range of history to be imported. Must be in the form: "YYYY-MM-DD". (If the start date = end date 1 day is imported)
 
-## Before you run!!!
+## Before you run
 
 Do not switch windows once the program begins. You can move your cursor but do not click or interact with anything the Quicken Security Window will close when the script finishes. Additionally, importing multiple coins or large ranges spaning years the script my take multiple minutes, to update a single day should take roughly 30 seconds for 5 coins.
-
-#### Use at your own risk as Quicken is subject to change their interface potentially breaking the Apple Script.
+**Use at your own risk as Quicken is subject to change their interface potentially breaking the Apple Script**
 
 ## Resources
 
 [pandas](https://github.com/pandas-dev/pandas) by [@pandas-dev](https://github.com/pandas-dev)
 
 [Historic_Crypto](https://github.com/David-Woroniuk/Historic_Crypto) by [@David-Woroniuk](https://github.com/David-Woroniuk)
-
